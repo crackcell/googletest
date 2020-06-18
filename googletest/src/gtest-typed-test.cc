@@ -57,6 +57,7 @@ static std::vector<std::string> SplitIntoTestNames(const char* src) {
 // Verifies that registered_tests match the test names in
 // registered_tests_; returns registered_tests if successful, or
 // aborts the program otherwise.
+/*
 const char* TypedTestSuitePState::VerifyRegisteredTestNames(
     const char* file, int line, const char* registered_tests) {
   typedef RegisteredTestsMap::const_iterator RegisteredTestIter;
@@ -111,7 +112,7 @@ const char* TypedTestSuitePState::VerifyRegisteredTestNames(
 
   return registered_tests;
 }
-
+*/
 #endif  // GTEST_HAS_TYPED_TEST_P
 
 }  // namespace internal
